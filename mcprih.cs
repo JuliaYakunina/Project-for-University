@@ -18,6 +18,7 @@ namespace galaktika.Forms
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
 		public PrihMC()
         {
@@ -25,7 +26,10 @@ namespace galaktika.Forms
 			OVP_3.ClassAct.ConvertDate.StartTimer();
 			var datBegin = barEditItem42.EditValue;
             var datEnd = barEditItem43.EditValue;
+			public string obozn1 { get; set; }
         }
+=======
+>>>>>>> parent of ab6f671... Commit #2
 
         private void PrihMC_Load(object sender, EventArgs e)
         {
