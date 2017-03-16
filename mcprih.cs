@@ -18,9 +18,11 @@ namespace galaktika.Forms
         {
             InitializeComponent();
         }
+
 		public PrihMC()
         {
             InitializeComponent();
+			OVP_3.ClassAct.ConvertDate.StartTimer();
 			var datBegin = barEditItem42.EditValue;
             var datEnd = barEditItem43.EditValue;
         }
@@ -85,7 +87,6 @@ namespace galaktika.Forms
             public int? groupSnab1 { get; set; }
             public int? vidPriemki1 { get; set; }
 
-            public int i { get; set; }
             public int count { get; set; }
         }
 
