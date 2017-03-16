@@ -79,6 +79,7 @@ namespace galaktika.Forms
             public int? groupSnab1 { get; set; }
             public int? vidPriemki1 { get; set; }
 
+            public int i { get; set; }
             public int count { get; set; }
         }
 
