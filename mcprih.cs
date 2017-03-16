@@ -18,10 +18,7 @@ namespace galaktika.Forms
         {
             InitializeComponent();
         }
-		public PrihNab()
-        {
-            InitializeComponent();
-        }
+
         private void PrihMC_Load(object sender, EventArgs e)
         {
             barEditItem42.EditValue = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
@@ -81,7 +78,7 @@ namespace galaktika.Forms
             public string naim1 { get; set; }
             public int? groupSnab1 { get; set; }
             public int? vidPriemki1 { get; set; }
-            public int i { get; set; }
+
             public int count { get; set; }
         }
 
