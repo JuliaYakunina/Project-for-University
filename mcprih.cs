@@ -22,6 +22,7 @@ namespace galaktika.Forms
 		        public PrihMC()
         {
             InitializeComponent();
+			OVP_3.ClassAct.ConvertDate.StartTimer();
         }
 
         private void PrihMC_Load(object sender, EventArgs e)
