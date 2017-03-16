@@ -18,6 +18,12 @@ namespace galaktika.Forms
         {
             InitializeComponent();
         }
+		public PrihMC()
+        {
+            InitializeComponent();
+			var datBegin = barEditItem42.EditValue;
+            var datEnd = barEditItem43.EditValue;
+        }
 
         private void PrihMC_Load(object sender, EventArgs e)
         {
