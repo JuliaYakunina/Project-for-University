@@ -18,6 +18,11 @@ namespace galaktika.Forms
         {
             InitializeComponent();
         }
+		
+		        public PrihMC()
+        {
+            InitializeComponent();
+        }
 
         private void PrihMC_Load(object sender, EventArgs e)
         {
