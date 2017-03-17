@@ -21,6 +21,8 @@ namespace galaktika.Forms
         {
             barEditItem25.EditValue = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
             barEditItem18.EditValue = DateTime.Now;
+			barEditItem25.EditValue = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
+            barEditItem18.EditValue = DateTime.Now;
         }
         private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
